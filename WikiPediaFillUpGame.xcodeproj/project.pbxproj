@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57E8B731F31A00400FC6D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E8B721F31A00400FC6D15 /* AppDelegate.swift */; };
+		A57E8B751F31A00400FC6D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E8B741F31A00400FC6D15 /* ViewController.swift */; };
+		A57E8B781F31A00400FC6D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E8B761F31A00400FC6D15 /* Main.storyboard */; };
+		A57E8B7B1F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A57E8B791F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodeld */; };
+		A57E8B7D1F31A00500FC6D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E8B7C1F31A00500FC6D15 /* Assets.xcassets */; };
+		A57E8B801F31A00500FC6D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E8B7E1F31A00500FC6D15 /* LaunchScreen.storyboard */; };
+		A57E8B8B1F31A00500FC6D15 /* WikiPediaFillUpGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E8B8A1F31A00500FC6D15 /* WikiPediaFillUpGameTests.swift */; };
+		A57E8B961F31A00600FC6D15 /* WikiPediaFillUpGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E8B951F31A00600FC6D15 /* WikiPediaFillUpGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57E8B871F31A00500FC6D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57E8B671F31A00400FC6D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57E8B6E1F31A00400FC6D15;
+			remoteInfo = WikiPediaFillUpGame;
+		};
+		A57E8B921F31A00600FC6D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57E8B671F31A00400FC6D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57E8B6E1F31A00400FC6D15;
+			remoteInfo = WikiPediaFillUpGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A57E8B6F1F31A00400FC6D15 /* WikiPediaFillUpGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiPediaFillUpGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57E8B721F31A00400FC6D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57E8B741F31A00400FC6D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57E8B771F31A00400FC6D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57E8B7A1F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WikiPediaFillUpGame.xcdatamodel; sourceTree = "<group>"; };
+		A57E8B7C1F31A00500FC6D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57E8B7F1F31A00500FC6D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A57E8B811F31A00500FC6D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E8B861F31A00500FC6D15 /* WikiPediaFillUpGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiPediaFillUpGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57E8B8A1F31A00500FC6D15 /* WikiPediaFillUpGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiPediaFillUpGameTests.swift; sourceTree = "<group>"; };
+		A57E8B8C1F31A00500FC6D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E8B911F31A00600FC6D15 /* WikiPediaFillUpGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiPediaFillUpGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57E8B951F31A00600FC6D15 /* WikiPediaFillUpGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiPediaFillUpGameUITests.swift; sourceTree = "<group>"; };
+		A57E8B971F31A00600FC6D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57E8B6C1F31A00400FC6D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E8B831F31A00500FC6D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E8B8E1F31A00500FC6D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57E8B661F31A00400FC6D15 = {
+			isa = PBXGroup;
+			children = (
+				A57E8B711F31A00400FC6D15 /* WikiPediaFillUpGame */,
+				A57E8B891F31A00500FC6D15 /* WikiPediaFillUpGameTests */,
+				A57E8B941F31A00600FC6D15 /* WikiPediaFillUpGameUITests */,
+				A57E8B701F31A00400FC6D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57E8B701F31A00400FC6D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57E8B6F1F31A00400FC6D15 /* WikiPediaFillUpGame.app */,
+				A57E8B861F31A00500FC6D15 /* WikiPediaFillUpGameTests.xctest */,
+				A57E8B911F31A00600FC6D15 /* WikiPediaFillUpGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57E8B711F31A00400FC6D15 /* WikiPediaFillUpGame */ = {
+			isa = PBXGroup;
+			children = (
+				A57E8B721F31A00400FC6D15 /* AppDelegate.swift */,
+				A57E8B741F31A00400FC6D15 /* ViewController.swift */,
+				A57E8B761F31A00400FC6D15 /* Main.storyboard */,
+				A57E8B7C1F31A00500FC6D15 /* Assets.xcassets */,
+				A57E8B7E1F31A00500FC6D15 /* LaunchScreen.storyboard */,
+				A57E8B811F31A00500FC6D15 /* Info.plist */,
+				A57E8B791F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodeld */,
+			);
+			path = WikiPediaFillUpGame;
+			sourceTree = "<group>";
+		};
+		A57E8B891F31A00500FC6D15 /* WikiPediaFillUpGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A57E8B8A1F31A00500FC6D15 /* WikiPediaFillUpGameTests.swift */,
+				A57E8B8C1F31A00500FC6D15 /* Info.plist */,
+			);
+			path = WikiPediaFillUpGameTests;
+			sourceTree = "<group>";
+		};
+		A57E8B941F31A00600FC6D15 /* WikiPediaFillUpGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A57E8B951F31A00600FC6D15 /* WikiPediaFillUpGameUITests.swift */,
+				A57E8B971F31A00600FC6D15 /* Info.plist */,
+			);
+			path = WikiPediaFillUpGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57E8B6E1F31A00400FC6D15 /* WikiPediaFillUpGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57E8B9A1F31A00600FC6D15 /* Build configuration list for PBXNativeTarget "WikiPediaFillUpGame" */;
+			buildPhases = (
+				A57E8B6B1F31A00400FC6D15 /* Sources */,
+				A57E8B6C1F31A00400FC6D15 /* Frameworks */,
+				A57E8B6D1F31A00400FC6D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiPediaFillUpGame;
+			productName = WikiPediaFillUpGame;
+			productReference = A57E8B6F1F31A00400FC6D15 /* WikiPediaFillUpGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A57E8B851F31A00500FC6D15 /* WikiPediaFillUpGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57E8B9D1F31A00600FC6D15 /* Build configuration list for PBXNativeTarget "WikiPediaFillUpGameTests" */;
+			buildPhases = (
+				A57E8B821F31A00500FC6D15 /* Sources */,
+				A57E8B831F31A00500FC6D15 /* Frameworks */,
+				A57E8B841F31A00500FC6D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57E8B881F31A00500FC6D15 /* PBXTargetDependency */,
+			);
+			name = WikiPediaFillUpGameTests;
+			productName = WikiPediaFillUpGameTests;
+			productReference = A57E8B861F31A00500FC6D15 /* WikiPediaFillUpGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A57E8B901F31A00500FC6D15 /* WikiPediaFillUpGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57E8BA01F31A00600FC6D15 /* Build configuration list for PBXNativeTarget "WikiPediaFillUpGameUITests" */;
+			buildPhases = (
+				A57E8B8D1F31A00500FC6D15 /* Sources */,
+				A57E8B8E1F31A00500FC6D15 /* Frameworks */,
+				A57E8B8F1F31A00500FC6D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57E8B931F31A00600FC6D15 /* PBXTargetDependency */,
+			);
+			name = WikiPediaFillUpGameUITests;
+			productName = WikiPediaFillUpGameUITests;
+			productReference = A57E8B911F31A00600FC6D15 /* WikiPediaFillUpGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57E8B671F31A00400FC6D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = rukmani;
+				TargetAttributes = {
+					A57E8B6E1F31A00400FC6D15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A57E8B851F31A00500FC6D15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A57E8B6E1F31A00400FC6D15;
+					};
+					A57E8B901F31A00500FC6D15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A57E8B6E1F31A00400FC6D15;
+					};
+				};
+			};
+			buildConfigurationList = A57E8B6A1F31A00400FC6D15 /* Build configuration list for PBXProject "WikiPediaFillUpGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A57E8B661F31A00400FC6D15;
+			productRefGroup = A57E8B701F31A00400FC6D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57E8B6E1F31A00400FC6D15 /* WikiPediaFillUpGame */,
+				A57E8B851F31A00500FC6D15 /* WikiPediaFillUpGameTests */,
+				A57E8B901F31A00500FC6D15 /* WikiPediaFillUpGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57E8B6D1F31A00400FC6D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E8B801F31A00500FC6D15 /* LaunchScreen.storyboard in Resources */,
+				A57E8B7D1F31A00500FC6D15 /* Assets.xcassets in Resources */,
+				A57E8B781F31A00400FC6D15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E8B841F31A00500FC6D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E8B8F1F31A00500FC6D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57E8B6B1F31A00400FC6D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E8B751F31A00400FC6D15 /* ViewController.swift in Sources */,
+				A57E8B731F31A00400FC6D15 /* AppDelegate.swift in Sources */,
+				A57E8B7B1F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E8B821F31A00500FC6D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E8B8B1F31A00500FC6D15 /* WikiPediaFillUpGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E8B8D1F31A00500FC6D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E8B961F31A00600FC6D15 /* WikiPediaFillUpGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A57E8B881F31A00500FC6D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57E8B6E1F31A00400FC6D15 /* WikiPediaFillUpGame */;
+			targetProxy = A57E8B871F31A00500FC6D15 /* PBXContainerItemProxy */;
+		};
+		A57E8B931F31A00600FC6D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57E8B6E1F31A00400FC6D15 /* WikiPediaFillUpGame */;
+			targetProxy = A57E8B921F31A00600FC6D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A57E8B761F31A00400FC6D15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57E8B771F31A00400FC6D15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A57E8B7E1F31A00500FC6D15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57E8B7F1F31A00500FC6D15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57E8B981F31A00600FC6D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57E8B991F31A00600FC6D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57E8B9B1F31A00600FC6D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WikiPediaFillUpGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rukmani.WikiPediaFillUpGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A57E8B9C1F31A00600FC6D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WikiPediaFillUpGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rukmani.WikiPediaFillUpGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A57E8B9E1F31A00600FC6D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WikiPediaFillUpGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rukmani.WikiPediaFillUpGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiPediaFillUpGame.app/WikiPediaFillUpGame";
+			};
+			name = Debug;
+		};
+		A57E8B9F1F31A00600FC6D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WikiPediaFillUpGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rukmani.WikiPediaFillUpGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiPediaFillUpGame.app/WikiPediaFillUpGame";
+			};
+			name = Release;
+		};
+		A57E8BA11F31A00600FC6D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WikiPediaFillUpGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rukmani.WikiPediaFillUpGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WikiPediaFillUpGame;
+			};
+			name = Debug;
+		};
+		A57E8BA21F31A00600FC6D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WikiPediaFillUpGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rukmani.WikiPediaFillUpGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WikiPediaFillUpGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57E8B6A1F31A00400FC6D15 /* Build configuration list for PBXProject "WikiPediaFillUpGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E8B981F31A00600FC6D15 /* Debug */,
+				A57E8B991F31A00600FC6D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57E8B9A1F31A00600FC6D15 /* Build configuration list for PBXNativeTarget "WikiPediaFillUpGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E8B9B1F31A00600FC6D15 /* Debug */,
+				A57E8B9C1F31A00600FC6D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57E8B9D1F31A00600FC6D15 /* Build configuration list for PBXNativeTarget "WikiPediaFillUpGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E8B9E1F31A00600FC6D15 /* Debug */,
+				A57E8B9F1F31A00600FC6D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57E8BA01F31A00600FC6D15 /* Build configuration list for PBXNativeTarget "WikiPediaFillUpGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E8BA11F31A00600FC6D15 /* Debug */,
+				A57E8BA21F31A00600FC6D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A57E8B791F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A57E8B7A1F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodel */,
+			);
+			currentVersion = A57E8B7A1F31A00400FC6D15 /* WikiPediaFillUpGame.xcdatamodel */;
+			path = WikiPediaFillUpGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A57E8B671F31A00400FC6D15 /* Project object */;
+}
